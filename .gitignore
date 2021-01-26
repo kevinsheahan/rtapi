@@ -1,0 +1,48 @@
+*.py[co]
+
+# Packages
+*.egg
+/*.egg-info
+/dist
+/build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+/MANIFEST
+_build/
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Generated CSS
+/store/static/css/generated.css
+/static/
+
+# Generated js
+/store/static/config.js
+
+# Unit test / coverage reports
+.coverage
+.tox
+/cover
+
+# General detritus
+*~
+.*.sw?
+.DS_Store
+.venv
+/docs/build
+*.sqlite
+*.db
+*.orig
+.idea/
+deployment/*.retry
+extra/bknotifier_db.sqlite3
+document_uploads/
+# For those that wish to use vim ctags
+tags
