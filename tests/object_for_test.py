@@ -4,3 +4,4 @@ test_chassis_child = { "name":"server-module", "typeid":4, "asset":"GYYR134", "l
 test_object_ip = { "name":"network", "typeid":4, "asset":"GYYR140", "label":"server for IP tests" }
 test_ip_interfaces = [ "eth0", "enp1s0" ] 
 test_ip_addresses = { "ipv4" : "192.168.0.1" , "ipv6" : "2001:fe45:34::1" } 
+attribute_object = { "name":"test_server", "typeid":4, "asset":"GHHR4321", "label":"test server 1" }

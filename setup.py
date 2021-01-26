@@ -7,18 +7,18 @@ with open("requirements.txt", "r") as fh:
     install_reqs = fh.read().split()
 
 setup(
-    name="racktables-api",
+    name="racktables-api-bk",
     version="0.3.1",
-    packages=["rtapi"],
+    packages=["rtapi_bk"],
     license="GPLv2",
     description="Simple racktables API",
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=install_reqs,
-    url="https://github.com/rvojcik/rtapi",
+    url="https://github.com/kevinsheahan/rtapi",
     author="Robert Vojcik",
     author_email="robert@vojcik.net",
-    keywords=['rtapi', 'racktables', 'racktables api', 'racktables-api','racktables cli','racktables-cli'],
+    keywords=['rtapi_bk', 'racktables', 'racktables api', 'racktables-api','racktables cli','racktables-cli'],
     classifiers=[
             "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
             "Operating System :: POSIX",
