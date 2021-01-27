@@ -679,7 +679,6 @@ class RTObject:
         # If there is nothing to update (eg. old_value == new_value)
         # then the InsertOrUpdateAttribute_TypeFunction returns None and there is no SQL statement to execute
         if sql is not None:
-            # TODO check action needed
             self.db_insert(sql, (object_id, objtype_id, attr_id, new_value))
 
     def GetObjectAttributes(self, object_id):

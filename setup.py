@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as fh:
 
 setup(
     name="racktables-api-bk",
-    version="0.3.1",
+    version="0.3.2",
     packages=["rtapi_bk"],
     license="GPLv2",
     description="Simple racktables API",
